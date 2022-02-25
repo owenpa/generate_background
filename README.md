@@ -16,3 +16,9 @@ After receiving my professional Python certificate from Google, I was on a missi
 # Prerequisites
 - Pillow 9.0.1
 - schedule 1.1.0!
+
+# Installation
+Place generate_background.py and requirements.txt in an **empty** folder wherever you'd like.
+Install the prerequisites by running `pip install -r requirements.txt` in the folder and then run the script after completion.
+
+(If you want the program to run in the background rename the extension to '.pyw'. To my knowledge, this program that runs in the background can only then be closed by opening task manager and ending the 'pythonw.exe' process or by using `TASKKILL /F /IM pythonw.exe` in the command line.)
