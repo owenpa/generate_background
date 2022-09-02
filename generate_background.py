@@ -65,7 +65,7 @@ def delete_previous():
       - Sort the list of files in the directory that start with a number.
       - Delete the file that's the oldest/lowest (first position after sorting)
     """
-    allfiles = sorted(Path("backgroundimages/").glob("[0-9]*.py"))
+    allfiles = sorted(Path("backgroundimages/").glob("[0-9]*"))
     if len(allfiles) >= 7:
         try:
             os.remove(allfiles[0])
